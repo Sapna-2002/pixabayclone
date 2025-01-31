@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixabay Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <a href="#" class="flex items-center text-xl font-bold text-gray-900">
+                        pixabay
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#" class="text-gray-600 hover:text-gray-900">Explore</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900">Log in</a>
+                    <a href="#" class="bg-green-500 text-white px-4 py-2 rounded-md">Join</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-cover bg-center h-80" style="background-image: url('img-1.webp');">
+        <div class="flex flex-col items-center justify-center h-full bg-black bg-opacity-80">
+            <h1 class="text-3xl md:text-5xl font-bold text-white text-center">Stunning royalty-free images & stock</h1>
+            <div class="mt-4">
+                <input type="text" placeholder="Search for free images..." class="w-96 p-3 rounded-lg text-gray-700">
+            </div>
+        </div>
+    </header>
+
+    <!-- Image Categories -->
+    <section class="py-10 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-xl font-semibold">Popular Categories</h2>
+            <div class="flex space-x-3 mt-4 overflow-x-scroll">
+                <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded-full">Nature</button>
+                <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded-full">Wallpaper</button>
+                <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded-full">Flowers</button>
+                <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded-full">Landscape</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
